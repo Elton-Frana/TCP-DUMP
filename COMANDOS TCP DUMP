@@ -2,7 +2,7 @@ COMANDOS TCPDUMP
 
 Monitorar interface e IP de origem
 ( Ver se está chegando pacotes vindos de uma máquina para o servidor ).
- tcpdump -i ens18 src 192.168.140.1
+#️⃣ tcpdump -i ens18 src 192.168.140.1
 
 Ver se está chegando pacotes na porta 514
-# tcpdump -n -i ens18 port 514
+#️⃣ tcpdump -n -i ens18 port 514
