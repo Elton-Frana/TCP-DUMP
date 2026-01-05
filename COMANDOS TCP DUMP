@@ -1,5 +1,9 @@
 COMANDOS TCPDUMP
 
+Ver o que está passando pela nossa interface de rede:
+com o comando:
+#️⃣ tcpdump -i eth0
+
 Monitorar interface e IP de origem
 ( Ver se está chegando pacotes vindos de uma máquina para o servidor ).
 #️⃣ tcpdump -i ens18 src 192.168.140.1
